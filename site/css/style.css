@@ -1,2 +1,7 @@
-a {
-  margin: 1010px; }
+body {
+  background-color: red;
+  height: 100%;
+  width: 100%; }
+
+p {
+  color: blue; }
