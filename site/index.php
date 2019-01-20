@@ -11,6 +11,8 @@
 </head>
 
     <body>
+
+        <?php @require './vues/header.php'; ?>
         
         <div id="test">
             <p>Ceci est un test</p>
