@@ -1,19 +1,17 @@
 <div class="container-header">
-    <div class="header">
+    <header class="header">
         <img src="" alt="Logo Tonton Gazon" />
-        <nav class="nav-header-md+">
+        <nav class="nav-header">
             <ul>
                 <li><a href="#">aaaa</a></li>
                 <li><a href="#">aaaa</a></li>
                 <li><a href="#">aaaa</a></li>
                 <li><a href="#">aaaa</a></li>
             </ul>
-        </nav>
-        <nav class="nav-header-sm">
-            <div class="nav-boutton-container" onclick="affichageMenu(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+            <div class="nav-bar-container" onclick="affichageMenu(this)">
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+                <div id="bar3"></div>
             </div>
         </nav>
         <script>
@@ -21,5 +19,5 @@
             x.classList.toggle("change");
             }
         </script>
-    </div>
+    </header>
 </div>
