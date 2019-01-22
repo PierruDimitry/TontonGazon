@@ -18,6 +18,8 @@
             <p>Ceci est un test</p>
         </div>
 
+        <?php @require './vues/elements/footer.php'; ?>
+
     </body>
 
 </html>
