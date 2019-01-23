@@ -12,11 +12,11 @@
 
     <body>
 
-        <?php @require './vues/elements/header.php'; ?>
-        
-        <div id="test">
-            <p>Ceci est un test</p>
-        </div>
+        <?php @require './vues/elements/header.php'; ?>        
+
+        <?php @require './vues/elements/form-connexion.php'; ?>
+
+        <?php @require './vues/elements/form-inscription.php'; ?>
 
         <?php @require './vues/elements/footer.php'; ?>
 
