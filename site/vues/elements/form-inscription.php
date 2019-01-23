@@ -1,5 +1,5 @@
 <div class="from" id="form-con">
-    <h1>Connexion</h1>
+    <h1>Inscription</h1>
     <form action="/action_page.php" method="POST">
         <label>Nom  <input type="text" placeholder="Votre nom" name="nom" /> </label>
         <label>Prénom  <input type="text" placeholder="Votre prénom" name="prenom" /> </label>
