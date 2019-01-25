@@ -68,3 +68,11 @@
 
 .no-padd {
   padding: none; }
+
+#footer {
+  background-color: green;
+  display: grid; }
+
+.titrefooter {
+  font-size: 1.2rem;
+  color: white; }
