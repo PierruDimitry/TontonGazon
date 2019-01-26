@@ -44,8 +44,8 @@
                 <ul>
                     <li><b class="titrefooter"> NewsLetter</b></li>
                 </ul>
-                <input type="mail" placeholder="AdresseMail@jsp.com" />
-                <input type="submit" value="C'est partie !" />
+                <input type="mail" placeholder="AdresseMail@jsp.com" id="mail" /> 
+                <input type="submit" value="C'est partie !" id="envoie"/>
             </div>
             
     </footer>

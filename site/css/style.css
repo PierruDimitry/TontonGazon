@@ -69,10 +69,6 @@
 .no-padd {
   padding: none; }
 
-@media screen and (max-width: 640px) {
-  #footer {
-    display: inline-block; } }
-
 #footer {
   background-color: green;
   display: grid;
@@ -160,3 +156,36 @@
 .titrefooter {
   font-size: 1.2rem;
   color: white; }
+
+#mail {
+  padding: 5px;
+  border-radius: 5px;
+  border: none; }
+
+#envoie {
+  background-color: darkgreen;
+  border: none;
+  padding: 6px;
+  margin-left: -5px;
+  border-radius: 5px; }
+
+#envoie:hover {
+  background-color: darkolivegreen; }
+
+@media screen and (max-width: 640px) {
+  #footer {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-template-areas: "tb1" "tb2" "tb3" "tb4" "tb5"; }
+  #footer-col-1 {
+    padding-left: 0px; }
+  #footer-col-2 {
+    border-top: 1px solid white; }
+  #footer-col-3 {
+    border-top: 1px solid white; }
+  #footer-col-4 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; }
+  #footer-col-5 {
+    padding-top: 85px;
+    padding-bottom: 20px; } }
