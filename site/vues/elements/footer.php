@@ -43,10 +43,10 @@
         <div id="footer-col-5">
                 <ul>
                     <li><b class="titrefooter"> NewsLetter</b></li>
-                    <li>Petit texte lorme ipsum qui explique la newsletter</li>
                 </ul>
                 <input type="mail" placeholder="AdresseMail@jsp.com" />
                 <input type="submit" value="C'est partie !" />
             </div>
+            
     </footer>
 </div>
