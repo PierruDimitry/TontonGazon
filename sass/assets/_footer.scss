@@ -2,21 +2,150 @@
 //  git commit -a -m "ton commentaire"
 
 // CSS pour mobile
-@media screen and (max-width: 640px) { }
+@media screen and (max-width: 640px) {
+
+    #footer {
+
+        display: inline-block;
+    }
+    
+ }
 
 // CSS pour PC (en dessous)
 
 #footer {
     background-color: green;
     display: grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    grid-gap : 40px;
+    grid-template-areas: 
+    "tb1 tb2 tb3 tb4"
+    "tb1 tb2 tb3 tb5";
 }
 
 #footer-col-1 {
-   
+    text-align: center;
+    text-decoration: none;
+    grid-area: tb1;
+    padding-left: 50px;
+    padding-top: 25px;
+    
+    
 }
+
+    #footer-col-1 ul li{
+        list-style-type: none; 
+        padding:0.6rem;
+    }
+
+        #footer-col-1 ul li a{
+            text-decoration: none; 
+            color:white;
+            font-size: 0.8rem;
+        }
+
+
+
+
+
+
+#footer-col-2 {
+    text-align: center;
+    text-decoration: none;
+    grid-area: tb2;
+    padding-top: 25px;
+}
+    
+     #footer-col-2 ul li{
+        list-style-type: none;
+        padding:0.6rem;
+    }
+        #footer-col-2 ul li a{
+            text-decoration: none; 
+            color:white;
+            font-size: 0.8rem;
+        }
+
+
+
+
+
+
+#footer-col-3 {
+    text-align: center;
+    text-decoration: none;
+    grid-area: tb3;
+    padding-top: 25px;
+    padding-bottom:20px;
+    }
+        
+        #footer-col-3 ul li{
+             list-style-type: none;
+             padding:0.6rem;
+        }
+
+            #footer-col-3 ul li a{
+                 text-decoration: none; 
+                 color:white;
+                 font-size: 0.8rem;
+             }
+
+
+
+
+
+#footer-col-4 {
+    text-align: center;
+    text-decoration: none;
+    grid-area: tb4;  
+    padding-top: 25px;  
+}
+            
+    #footer-col-4 ul li{
+        list-style-type: none; 
+        padding:0.6rem;
+    }
+
+        #footer-col-4 ul li a{
+           text-decoration: none; 
+           color:white;
+           font-size: 0.8rem;
+          }
+
+
+
+
+#footer-col-5 {
+    text-align: center;
+    text-decoration: none;
+    grid-area: tb5;   
+    margin-top:-85px;
+
+}
+#footer-col-5 ul li{
+    list-style-type: none; 
+    padding:0.6rem;
+    
+}
+
+    #footer-col-5 ul li a{
+       text-decoration: none; 
+       color:white;
+       font-size: 0.8rem;
+   
+      }
+
+
+
+
+
+
 
 
 .titrefooter {
 font-size:1.2rem;
 color: white;
+
 }
+
+
