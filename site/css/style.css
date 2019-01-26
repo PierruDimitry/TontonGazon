@@ -69,10 +69,12 @@
 .no-padd {
   padding: none; }
 
+/* CSS pour mobile */
 @media screen and (max-width: 640px) {
   #footer {
     display: inline-block; } }
 
+/* CSS pour PC (en dessous) */
 #footer {
   background-color: green;
   display: grid;
@@ -160,3 +162,16 @@
 .titrefooter {
   font-size: 1.2rem;
   color: white; }
+
+/* Import Footer */
+/* CSS pour PC (en dessous) */
+/* CSS pour mobile */
+/* Import Header */
+/* CSS pour PC (en dessous) */
+/* CSS pour mobile */
+/* Import Formulaire de connexion */
+/* CSS pour PC (en dessous) */
+/* CSS pour mobile */
+/* Import Formulaire d' inscription */
+
+/*# sourceMappingURL=style.css.map */
