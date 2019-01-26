@@ -1,6 +1,8 @@
 @import 'assets/frequent/global.scss';
 @import 'assets/frequent/color.scss';
 @import 'assets/frequent/font.scss';
-@import 'assets/_footer.scss';
 
-@import 'assets/header';
+@import 'assets/_footer.scss';              /* Import Footer */
+@import 'assets/_header.scss';              /* Import Header */
+@import 'assets/form-connexion.scss';       /* Import Formulaire de connexion */
+@import 'assets/form-inscription.scss';     /* Import Formulaire d' inscription */

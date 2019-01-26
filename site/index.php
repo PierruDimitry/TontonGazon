@@ -18,9 +18,10 @@
 
         <?php @require './vues/elements/form-inscription.php'; ?>
 
+        <?php @require './vues/elements/profil.php'; ?>
+
         <?php @require './vues/elements/footer.php'; ?>
 
     </body>
-    <!-- test -->
 </html>
 
